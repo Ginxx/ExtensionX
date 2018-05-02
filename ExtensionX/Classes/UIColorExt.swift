@@ -19,10 +19,9 @@ public extension UIColor {
             }
         }
         
-        self.init(
-            red:   CGFloat((Int(hex, radix: 16)! >> 16) & 0xFF) / 255.0,
-            green: CGFloat((Int(hex, radix: 16)! >> 8) & 0xFF) / 255.0,
-            blue:  CGFloat((Int(hex, radix: 16)!) & 0xFF) / 255.0, alpha: 1.0)
+        self.init(red: CGFloat((Int(hex, radix: 16)! >> 16) & 0xFF) / 255.0,
+                  green: CGFloat((Int(hex, radix: 16)! >> 8) & 0xFF) / 255.0,
+                  blue: CGFloat((Int(hex, radix: 16)!) & 0xFF) / 255.0, alpha: 1.0)
     }
     
     func alpha(_ value: CGFloat) -> UIColor {

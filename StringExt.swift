@@ -7,7 +7,19 @@
 
 public extension String {
     
-    public var isBlank: Bool {
+    var isBlank: Bool {
         return isEmpty || trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+    
+    var asNSString: NSString {
+        return self as NSString
+    }
+    
+    var asURL: URL? {
+        return URL(string: self)
+    }
+    
+    var asImage: UIImage? {
+        return UIImage(named: self)
     }
 }
