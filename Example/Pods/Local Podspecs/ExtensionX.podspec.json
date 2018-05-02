@@ -1,0 +1,22 @@
+{
+  "name": "ExtensionX",
+  "version": "0.1.0",
+  "summary": "A short description of ExtensionX.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/G-Xi0N/ExtensionX",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "G-Xi0N": "gao497868860@163.com"
+  },
+  "source": {
+    "git": "https://github.com/G-Xi0N/ExtensionX.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ExtensionX/Classes/**/*"
+}
